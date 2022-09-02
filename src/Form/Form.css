@@ -1,0 +1,38 @@
+.Input{
+    padding: 5px;
+}
+.heading{
+    color: green;
+}
+.Button{
+    padding: 3px;
+    border: 1px solid green;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    margin-top: 10px;
+}
+.ButtonDelete{
+    background: red; 
+    border: 1px solid red;
+}
+.BuutonEdit{
+    background: blue; 
+    border: 1px solid blue;
+}
+table, thead, tbody {
+    
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+      
+    /* width: 100%;
+    border-collapse: collapse;
+    margin-top:25px;
+    padding: 5px;
+    color: #0a81f0;
+    border: 2px solid black;
+    border-radius: 10px; */
+  }

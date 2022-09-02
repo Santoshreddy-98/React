@@ -17,7 +17,7 @@ class Bonus extends React.Component {
             
             <div className='container'>
             <div className='row'>
-            <div className='col-md-10'>
+            <div className='col-md-8'>
             <div className='card-header'>
             <h2>Employee Salary: {this.state.salary}</h2>
             </div>

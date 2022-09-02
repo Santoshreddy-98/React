@@ -1,0 +1,49 @@
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* .button1{
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+    left: 9px;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    margin: 0 auto;
+       
+}
+.bluebtn{
+    color: white;
+    background: #4287f5;
+    transition: all 0.3s ease  
+}
+.redbtn{
+    color: white;
+    background: red;  
+    margin-left: 20px;
+} */
+
+/* .redbtn:hover{
+    background-color:#dbd7d7;
+   padding: 10px;  
+}
+.bluebtn:hover{
+    padding: 10px;
+    background-color: #0aa633; 
+} */
+/* table, th, td {
+    max-width: 100%;
+    margin-top:25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 100px;
+  } */

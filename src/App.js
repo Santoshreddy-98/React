@@ -1,11 +1,15 @@
 import React from "react";
-import Bonus from "./example/Bonus.jsx";
+import Approutes from "./Approutes/Approutes.jsx";
+import Form from "./Form/Form.jsx";
+
 
 function App() {
-  return (
-    <div>
-      <Bonus/>
-    </div>)
+ return <div>
+
+<Approutes/>
+{/* <Form/> */}
+
+ </div>
       
         
 }
