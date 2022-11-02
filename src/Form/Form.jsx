@@ -26,11 +26,11 @@ Setstore([...store,newData])
 console.log(store)
 }
 
-// // Delete Button FUNCTION
-// const deleteHandler = (IndexValue) => {
-//     const FilteredTodo = store.filter((emp, index) => index !== IndexValue);
-//     Setstore(FilteredTodo);
-//   };
+// Delete Button FUNCTION
+const deleteHandler = (IndexValue) => {
+    const FilteredTodo = store.filter((emp, index) => index !== IndexValue);
+    Setstore(FilteredTodo);
+  };
 //   // Edit Button function
 //   const editHandler = (editIndexValue) => {
 //     const FilteredTodo = store.filter(
@@ -72,7 +72,7 @@ console.log(store)
                      <td>{emp.Name}</td>
                      <td>{emp.Email}</td>
                      <td>{emp.Password}</td>
-                     <td><button className=" Button BuutonEdit" >Edit</button> <button className=" Button ButtonDelete">Delete</button></td>
+                     <td><button className=" Button BuutonEdit" >Edit</button> <button className=" Button ButtonDelete"onClick={()=>deleteHandler(index)}>Delete</button></td>
                      </tr>
                     )
                 })}</tbody>
